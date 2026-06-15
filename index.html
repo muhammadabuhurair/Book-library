@@ -1,0 +1,319 @@
+<!--Home page-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Library Website</title>
+  </head>
+  <style>
+    @media (max-width: 768px) {
+      table {
+        width: 100% !important;
+      }
+
+      td {
+        display: block;
+        width: 100% !important;
+        margin-bottom: 20px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      h1 {
+        font-size: 28px !important;
+      }
+
+      h2 {
+        font-size: 24px !important;
+      }
+
+      p {
+        font-size: 16px !important;
+      }
+    }
+  </style>
+  <body>
+    <hr style="border: 2px solid greenyellow; margin: 20px 0" />
+
+    <div
+      style="
+        display: flex;
+        align-items: center;
+        background-color: #1e3a5f;
+        padding: 10px;
+      "
+    >
+      <img
+        style="width: 100px; height: auto"
+        src="images/web-logo.png"
+        alt="Book Library Logo"
+      />
+
+      <div style="flex: 1; text-align: center">
+        <a
+          style="text-decoration: none; margin: 0 15px; color: white"
+          href="index.html"
+          >Home</a
+        >
+        |
+        <a
+          style="text-decoration: none; margin: 0 15px; color: white"
+          href="Books.html"
+          target="_blank"
+          >Books</a
+        >
+        |
+        <a
+          style="text-decoration: none; margin: 0 15px; color: white"
+          href="Authors.html"
+          target="_blank"
+          >Authors</a
+        >
+        |
+        <a
+          style="text-decoration: none; margin: 0 15px; color: white"
+          href="Contact.html"
+          target="_blank"
+          >Contact</a
+        >
+        |
+        <a
+          style="text-decoration: none; margin: 0 15px; color: white"
+          href="About.html"
+          target="_blank"
+          >About</a
+        >
+      </div>
+    </div>
+
+    <hr style="border: 2px solid greenyellow; margin: 20px 0" />
+    <div style="text-align: center">
+      <h1 style="color: #333">&#128218;Book Library</h1>
+      <p style="color: yellowgreen; font-weight: bold">Read.Learn.Grow</p>
+      <p style="color: #666">
+        Welcome to our Book Library! Explore a wide range of books and find your
+        next great read.
+      </p>
+      <h4>Our Library:</h4>
+      <img
+        style="width: 700px; height: auto; margin-top: 20px"
+        src="images/library.jpg"
+        alt="Book Library"
+      />
+    </div>
+
+    <div
+      style="
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 20px;
+      "
+    >
+      <a href="Books.html">
+        <button
+          style="
+            background: #1e3a5f;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+          "
+        >
+          Browse Books
+        </button>
+      </a>
+
+      <a href="Contact.html">
+        <button
+          style="
+            background: #1e3a5f;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+          "
+        >
+          Join Library
+        </button>
+      </a>
+    </div>
+
+    <hr style="border: 2px solid greenyellow; margin: 20px 0" />
+
+    <h2 style="text-align: center; color: gray">Featured Books</h2>
+
+    <div
+      style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap"
+    >
+      <div
+        style="
+          border: 1px solid #d15c5c;
+          padding: 10px;
+          width: 220px;
+          height: 380px;
+          text-align: center;
+        "
+      >
+        <img
+          src="images/atomic-habbit.jpg"
+          style="width: 200px; height: 225px; object-fit: cover"
+          alt="Atomic Habits"
+        />
+        <h3>Atomic Habits</h3>
+        <p>Self Improvement Book</p>
+      </div>
+
+      <div
+        style="
+          border: 1px solid #d15c5c;
+          padding: 10px;
+          width: 220px;
+          height: 380px;
+          text-align: center;
+        "
+      >
+        <img
+          src="images/rich-dad-poor dad.jpg"
+          style="width: 150px; height: 225px; object-fit: cover"
+          alt="Rich Dad Poor Dad"
+        />
+        <h3>Rich Dad Poor Dad</h3>
+        <p>Finance Book</p>
+      </div>
+
+      <div
+        style="
+          border: 1px solid #d15c5c;
+          padding: 10px;
+          width: 220px;
+          height: 380px;
+          text-align: center;
+        "
+      >
+        <img
+          src="images/harrypoter.jpg"
+          style="width: 200px; height: 225px; object-fit: cover"
+        />
+        <h3>Harry Potter</h3>
+        <p>Fantasy Novel</p>
+      </div>
+      <div
+        style="
+          border: 1px solid #d15c5c;
+          padding: 10px;
+          width: 220px;
+          height: 380px;
+          text-align: center;
+        "
+      >
+        <img
+          src="src/book1.png"
+          style="width: 200px; height: 225px; object-fit: cover"
+        />
+        <h3>Programming Principles and Practices using C++</h3>
+        <p>Programming Book</p>
+      </div>
+    </div>
+    <hr style="border: 2px solid greenyellow; margin: 20px 0" />
+
+    <h2 style="text-align: center; color: gray">Library Statistics</h2>
+
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 20px;
+        color: yellowgreen;
+        font-family:
+          &quot;Lucida Sans&quot;, &quot;Lucida Sans Regular&quot;,
+          &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Geneva,
+          Verdana, sans-serif;
+      "
+    >
+      <div>
+        <h3>500+</h3>
+        <p>Books</p>
+      </div>
+
+      <div>
+        <h3>50+</h3>
+        <p>Authors</p>
+      </div>
+
+      <div>
+        <h3>1000+</h3>
+        <p>Readers</p>
+      </div>
+    </div>
+    <hr style="border: 2px solid greenyellow; margin: 20px 0" />
+
+    <h2 style="text-align: center; color: gray">Categories</h2>
+
+    <ul style="list-style: circle; color: #333; font-size: 18px">
+      <li>&#128218;Fiction</li>
+      <li>&#128184;Business</li>
+      <li>&#128187;Technology</li>
+      <li>&#128179;Self Development</li>
+      <li>&#128183;Science</li>
+    </ul>
+    <hr style="border: 2px solid greenyellow; margin: 20px 0" />
+
+    <h2 style="text-align: center; color: gray">Why Choose Our Library?</h2>
+
+    <ul>
+      <li>✔ Large collection of books</li>
+      <li>✔ Easy navigation</li>
+      <li>✔ Famous authors</li>
+      <li>✔ Free reading resources</li>
+    </ul>
+
+    <hr style="border: 2px solid greenyellow; margin: 20px 0" />
+    <footer
+      style="
+        background: #1e3a5f;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      "
+    >
+      <p>
+        📧 Email:
+        <a style="color: greenyellow" href="mailto:abuhurairakhan799@gmail.com"
+          >abuhurairakhan799@gmail.com
+        </a>
+      </p>
+      <p>📞 Phone: +92 300 1234567</p>
+      <p>🌐 Follow us on Social Media</p>
+      <p>
+        Github:
+        <a
+          style="color: greenyellow"
+          href="https://github.com/muhammadabuhurair"
+          target="_blank"
+        >
+          Muhammad Abuhurair Khan
+        </a>
+      </p>
+      <p>
+        LinkedIn:
+        <a
+          style="color: greenyellow"
+          href="https://www.linkedin.com/in/abuhurairakhan-dev/"
+          target="_blank"
+        >
+          Muhammad Abuhurair Khan
+        </a>
+      </p>
+      <p>&copy; 2026 Book Library. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
